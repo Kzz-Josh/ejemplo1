@@ -80,13 +80,11 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Icon(Icons.alarm),
-                SizedBox(
-                  width: 10.0,
-                ),
-                Icon(Icons.alarm),
-                Icon(Icons.alarm),
+                Icon(Icons.facebook, size: 100.0),
+                Icon(Icons.facebook_sharp, size: 100.0),
+                Icon(Icons.facebook_sharp, size: 100.0),
               ],
             ),
           ],
